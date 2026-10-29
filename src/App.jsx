@@ -1,3 +1,4 @@
+import React from 'react';
 import { Routes, Route, Link, useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { ShoppingCart, Leaf } from "lucide-react";
