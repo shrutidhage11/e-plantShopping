@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { addToCart } from './CartSlice.jsx';
+import { addItem } from './CartSlice.jsx';
 import './ProductList.css';
 const plants = [
  {id:'snake',name:'Snake Plant',price:320,category:'Air Purifying',description:'Architectural leaves, easy-going care.',emoji:'🌿',color:'#e5eddf'},
